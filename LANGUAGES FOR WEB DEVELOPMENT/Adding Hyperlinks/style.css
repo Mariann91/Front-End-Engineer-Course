@@ -1,0 +1,135 @@
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-image: url(https://content.codecademy.com/programs/code-foundations-path/airplane.jpeg);
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+
+.overlay:before {
+  content: " ";
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.overlay * {
+  position: relative; /* Makes elements display above overlay. */
+}
+
+#header-text {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 60%;
+  z-index: 2 !important;
+  font-weight: bold;
+}
+/* 2.
+Awesome! Alejandra’s site is looking good! Just a little CSS can make the difference between a website that looks like a skeleton and portfolio-ready site.
+
+Now let’s tweak the CSS just a little bit, to see how the visual rules specified in CSS can change the way that a website is displayed.
+
+Navigate to the style.css and scroll down to line 37 where you will see the h1 selector. This section defines the styles for the h1 element on the page, which is the most prominent heading.
+
+Just for practice, change the color property from white to black and press Run to see what changes! */
+/* 3.
+Good job changing the color of the h1 text!
+
+If you look at the rendered browser, you’ll notice that the heading text is no longer readable in-front of the image.
+
+Let’s change the color property within the h1 selector back to white. */
+h1 {
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 60px;
+  margin: 0px;
+}
+h2 {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+}
+h3 {
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 0px;
+  text-align: center;
+}
+h4 {
+  color: #cccccc;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.partner {
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+  background-color: white;
+  z-index: 3;
+}
+.partner img {
+  position: relative;
+  top: 6px;
+}
+.aa-logo {
+  padding-left: 6px;
+}
+.main {
+  background: url(https://content.codecademy.com/programs/code-foundations-path/shards.png);
+  margin: 0px;
+  padding: 40px;
+}
+
+.value-props {
+  margin: 40px auto;
+  width: 60%;
+}
+.prop {
+  border: 1px solid #ffffff;
+  padding: 40px 0px;
+  margin: 5px 0px;
+  text-align: center;
+}
+.prop h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+}
+.prop li {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: left;
+  width: 60%;
+}
