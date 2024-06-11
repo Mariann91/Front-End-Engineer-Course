@@ -1,0 +1,150 @@
+/*Global reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 1. Main container */
+/* 2. Navigation section */
+/* 3. Header section */
+/* 4. Main section */
+/* 5. Section  */
+/* 6. Aside section */
+/* 7. Footer section */
+
+/* 1. Main container */
+
+.main-container {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 2. Navigation section */
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+}
+
+li {
+  display: inline;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* 2. Header section*/
+
+header {
+  height: 700px;
+  width: 1200px;
+  background-image: url(pictures/background.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headings {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* 3. Main section */
+
+.main-headings h2 {
+  margin: 20px 0;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.img-box-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  position: relative;
+  left: 160px;
+}
+
+.img-box img {
+  height: 200px;
+  width: 300px;
+  margin: 20px 0;
+}
+
+/* 4. Section */
+
+section {
+  height: 500px;
+  width: 1200px;
+  background-image: url(pictures/locations.png);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  margin-bottom: 15px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.section-box {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 1;
+}
+
+/* 5. Aside section */
+
+aside {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* 6. Footer section */
+
+footer {
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,217 @@
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General styles */
+body {
+  box-sizing: border-box;
+}
+
+/* Header Section */
+
+header {
+  width: 70%;
+  margin: 2% auto;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+/* Main section */
+
+h2 {
+  font-size: 1rem;
+  margin-left: 2%;
+}
+
+h3 {
+  font-size: 0.8rem;
+}
+
+.colors h2,
+.fonts h2 {
+  margin-top: 1rem;
+}
+
+.box {
+  width: 70%;
+  margin: 2% auto;
+  border: 1px solid gray;
+}
+
+/* Colors */
+
+.colors > div {
+  margin-left: 2%;
+}
+
+.color {
+  display: inline-block;
+  width: 30%;
+  height: 5rem;
+  margin: 1rem 0;
+}
+
+.color p {
+  position: relative;
+  top: 1.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* color div backgrounds */
+
+.first {
+  background-color: darkturquoise;
+}
+
+.second {
+  background-color: darkviolet;
+}
+
+.third {
+  background-color: #ff1493;
+}
+
+.fourth {
+  background-color: #00bfff;
+}
+
+.fifth {
+  background-color: #1e90ff;
+}
+
+.sixth {
+  background-color: #b22222;
+}
+
+/* Fonts */
+
+.fonts h3 {
+  text-decoration: underline;
+}
+
+.fonts h2,
+.fonts h3,
+.fonts p {
+  margin-bottom: 0.5rem;
+}
+
+.fonts p {
+  font-size: 0.7rem;
+}
+
+.fonts div {
+  margin-left: 2%;
+}
+
+.font {
+  display: inline-block;
+  width: 30%;
+}
+
+/* Roboto */
+
+.roboto p:nth-child(2) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto p:nth-child(3) {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto p:last-child {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Monserat */
+
+.monserrat p:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.monserrat p:nth-child(3) {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.monserrat p:last-child {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Reddit Mono */
+
+.reddit p:nth-child(2) {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.reddit p:nth-child(3) {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.reddit p:last-child {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fonts p:last-child {
+  margin-bottom: 1rem;
+}
+
+/* Styles */
+
+.styles h1 {
+  margin-left: 2%;
+  margin-top: 1rem;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
+.styles h2 {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+
+.styles h3 {
+  margin-top: 1rem;
+  margin-left: 2%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Reddit Mono";
+}
+
+.styles li {
+  font-size: 0.8rem;
+}
+
+ul {
+  margin-top: 1rem;
+  margin-left: 6%;
+  margin-bottom: 1rem;
+}
